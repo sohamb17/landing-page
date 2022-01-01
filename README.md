@@ -1,0 +1,1 @@
+A sample Landing Page for websites.
