@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 64px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 24px;
+    font-weight: bold;
+    margin: 8px auto;
+}
+
+.signup-button:hover {
+    cursor: pointer;
+}
+
+.img-placeholder {
+    width: 400px;
+    height: 225px;
+}
+
+.hero-left, .hero-right {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info img {
+    width: 140px;
+    height: 140px;
+    border-radius: 15px;
+    border: #3882F6 solid 5px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 140px;
+}
+
+.text {
+    text-align: center;
+    color: #777777;
+}
+
+.information {
+    padding-bottom: 48px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 30px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.quote-by {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: end;
+    margin-right: 40px;
+    margin-top: 0;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.action-main {
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.action-secondary {
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+#action-button {
+    border: #F9FAF8 solid 2px;
+}
+
+.action-right {
+    align-self: center;
+}
+
+.action-section {
+    padding: 70px;
+}
